@@ -1,0 +1,32 @@
+.img{
+   background-image: url(./TopPhoto/c.jpg);
+   background-repeat: no-repeat;
+background-position: center;
+background-size: cover;
+}
+
+.an{
+position: absolute;
+right: 0%;
+bottom: -36px;
+margin-bottom: 5px;
+clip-path: polygon(0 3%, 100% 0%, 100% 100%, 6% 100%);
+font-family: "Open Sans", sans-serif;
+
+}
+
+.ann{
+   animation: scrollText 15s linear infinite;
+}
+@keyframes scrollText {
+   0% {
+     transform: translateX(100%);
+   }
+   100% {
+     transform: translateX(-100%);
+   }
+ }
+
+ .sh{
+  box-shadow: 3px 3px 10px #6b6b6b8c;
+ }
